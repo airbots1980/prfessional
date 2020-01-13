@@ -1,9 +1,10 @@
-import edu.unl.hcc.leetcode.ListNode;
+
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
+ * Let's represent an integer in a linked list format by having each node represent a
+ * digit in the number. The nodes make up the number in reversed order.
  *
  * For example, the following linked list:
  *
@@ -22,6 +23,7 @@ import java.util.List;
  */
 public class IntegerLinkedListSum {
 
+    /*
     public static ListNode sumLinkedList(ListNode l1, ListNode l2) {
         if(l1==null) return l2;
         else if(l2==null) return l1;
@@ -84,4 +86,5 @@ public class IntegerLinkedListSum {
             result=result.next;
         }
     }
+    */
 }

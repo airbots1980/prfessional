@@ -1,3 +1,5 @@
+import org.apache.commons.lang.math.NumberUtils;
+
 /**
  * Given an integer, find the next permutation of it in absolute order.
  * For example, given 48975, the next permutation would be 49578.
@@ -6,7 +8,8 @@ public class NextPermutation {
 
     public static int findCircularPer(int num) {
 
-        int len = NumberUtils.getDigitNum(num);
+        int len=0;
+        //    len = NumberUtils.getDigitNum(num);
         int current = num;
         int result = Integer.MIN_VALUE;
         while(true) {

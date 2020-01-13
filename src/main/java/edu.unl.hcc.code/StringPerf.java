@@ -1,6 +1,8 @@
 /**
  * Results
  *
+ *
+ *
  * 1000 run
  * Time consumed for new String is: 33
  * Time consumed for String.valueOf is: 3
@@ -66,6 +68,6 @@ public class StringPerf {
 
     public static void main(String[] args) {
         char[] testCase = ("").toCharArray();
-        createStringFromChar(testCase, 10000);
+        createStringFromChar(testCase, 100);
     }
 }

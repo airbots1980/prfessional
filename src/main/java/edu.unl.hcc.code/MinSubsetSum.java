@@ -11,7 +11,7 @@ import java.util.Set;
  * For example, given [5, 10, 15, 20, 25], return the sets {10, 25}
  * and {5, 15, 20}, which has a difference of 5, which is the smallest possible difference.
  */
-public class MinSubsetDiff {
+public class MinSubsetSum {
 
     public static int findSmallestDiff(int[] array) {
         if(array==null||array.length==0) return 0;
