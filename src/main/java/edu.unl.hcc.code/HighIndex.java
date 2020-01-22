@@ -36,8 +36,5 @@ public class HighIndex {
         System.out.println("HighIndex of test1 is:" + findHI(test1));
         System.out.println("HighIndex of test2 is:" + findHI(test2));
         System.out.println("HighIndex of test3 is:" + findHI(test3));
-
-
-
     }
 }
