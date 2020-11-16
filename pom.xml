@@ -27,7 +27,7 @@
         <zkclient.version>0.9</zkclient.version>
         <glassfish.version>1.0.4</glassfish.version>
         <javax.ws.rs.version>2.0.1</javax.ws.rs.version>
-        <jetty.util>9.4.13.v20181111</jetty.util>
+        <jetty.util>9.4.34.v20201102</jetty.util>
         <!-- <spring.web>3.0.2.RELEASE</spring.web>-->
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
